@@ -47,7 +47,7 @@ def compte_boutons(image):
     cv2.namedWindow('image', cv2.WINDOW_NORMAL)
     cv2.imshow('image',trt)
     cv2.waitKey()
-    cv2.imshow('image',img)
+    cv2.imshow('image',img2)
     cv2.waitKey()
     cv2.destroyAllWindows()
     return s
